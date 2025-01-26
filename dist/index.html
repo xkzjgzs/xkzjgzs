@@ -56,20 +56,28 @@
                 .portfolio-box img {
                     height: 100%;
                 }
+
+                .solution-card img {
+                    height: 100%;
+                }
+            }
+
+            .solution-card img {
+                width: 100%;
+                object-fit:fill;
             }
         </style>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?6ad6ce1e4e2be4f1f18d41832f3d2296";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
     </head>
     <body id="page-top">
-        <!-- Breadcrumb Navigation -->
-        <nav aria-label="breadcrumb" class="breadcrumb-nav">
-            <div class="container">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="/">首页</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">服务</li>
-                </ol>
-            </div>
-        </nav>
-
         <!-- Main Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -186,6 +194,50 @@
                 </div>
             </div>
         </div>
+
+        <!-- Online Solutions -->
+        <section class="page-section" id="solutions">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">我们的解决方案</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5">我们提供一系列线上应用和解决方案，以满足不同客户的需求。</p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <!-- Solution Item 1 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="solution-card">
+                            <img src="assets/img/solution/xkzjgzs.png" alt="工作室智能客服" class="solution-img">
+                            <h3 class="solution-title">工作室智能客服</h3>
+                            <p class="solution-description">星空之家工作室客服小助手，随时为您解答关于星空之家工作室的问题。</p>
+                            <a href="https://mbd.baidu.com/ma/s/C1JohDe2" target="_blank" class="btn btn-primary">了解更多</a>
+                        </div>
+                    </div>
+                    <!-- Solution Item 2 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="solution-card">
+                            <img src="assets/img/solution/sitebuilder.png" alt="网站建设咨询" class="solution-img">
+                            <h3 class="solution-title">网站建设咨询</h3>
+                            <p class="solution-description">您的网站建设助手。我可以帮助您从需求分析到上线部署完成整个网站建设过程。</p>
+                            <a href="https://mbd.baidu.com/ma/s/1NRRDITq" target="_blank" class="btn btn-primary">了解更多</a>
+                        </div>
+                    </div>
+                    <!-- Solution Item 3 -->
+                    <div class="col-md-4 mb-5">
+                        <div class="solution-card">
+                            <img src="assets/img/solution/jdsy.png" alt="九鼎私域项目客服" class="solution-img">
+                            <h3 class="solution-title">九鼎私域项目客服</h3>
+                            <p class="solution-description">项目零投资、零学费、零风险，帮助所有人更好地利用私域流量变现。</p>
+                            <a href="https://mbd.baidu.com/ma/s/QJMJk1lg" target="_blank" class="btn btn-primary">了解更多</a>
+                        </div>
+                    </div>
+                    <!-- 可以继续添加更多的解决方案项 -->
+                </div>
+            </div>
+        </section>
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">

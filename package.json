@@ -1,6 +1,6 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
+    "title": "CreationStudio",
+    "name": "creation-studio",
     "version": "7.0.7",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
+    "description": "星空之家工作室的官网",
     "keywords": [
         "css",
         "sass",
